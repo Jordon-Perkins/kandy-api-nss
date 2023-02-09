@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "George ",
+      "email": "george@george.mail",
+      "isStaff": false
+    },
+    {
+      "email": "jacob@jacob.mail",
+      "fullName": "Jacob Billings",
+      "isStaff": true,
+      "id": 2
+    },
+    {
+      "email": "howard@howard.mail",
+      "fullName": "Howard Lynburg",
+      "isStaff": false,
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "purchase": "yes",
+      "loyaltyNumber": 46783,
+      "locationId": 1,
+      "userId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "3/2/33",
+      "payRate": 12.99,
+      "userId": 2,
+      "locationId": 1
+    },
+    {
+      "startDate": "07-08-09",
+      "payRate": 0,
+      "locationId": 0,
+      "userId": 0,
+      "id": 2
+    },
+    {
+      "startDate": "09-31-92",
+      "payRate": 0,
+      "id": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "8902 Houston Drive, Augustine, Utah 80932",
+      "squareFootage": "3500 Square ft"
+    },
+    {
+      "id": 2,
+      "address": "1283 Central Lane, Everyln, Alaska 39280",
+      "squareFootage": "500 Square ft"
+    },
+    {
+      "id": 3,
+      "address": "7892 Yearly Parkway, Justice, Montana 27893",
+      "squareFootage": "300 Square ft"
+    },
+    {
+      "id": 4,
+      "address": "3749 Rocky Avenue, Coastal, Virginia 39280",
+      "squareFootage": "100 Square ft"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "name": "Laffy Taffy",
+      "productTypeId": 1,
+      "price": 1.32
+    },
+    {
+      "id": 2,
+      "locationId": 3,
+      "name": "Hershey Kisses",
+      "productTypeId": 4,
+      "price": 2
+    },
+    {
+      "id": 3,
+      "locationId": 2,
+      "name": "Altoids",
+      "productTypeId": 3,
+      "price": 1.2
+    },
+    {
+      "id": 4,
+      "locationId": 4,
+      "name": "Double Bubble",
+      "productTypeId": 2,
+      "price": 0.67
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "name": "CokaCola",
+      "productTypeId": 5,
+      "price": 0.25
+    },
+    {
+      "id": 6,
+      "locationId": 1,
+      "name": "Cadbury Egg",
+      "productTypeId": 4,
+      "price": 2.45
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Taffy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "type": "Chocolate"
+    },
+    {
+      "id": 5,
+      "type": "Sodas"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 16
+    }
+  ]
+}

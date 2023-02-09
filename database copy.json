@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "George ",
+      "email": "george@george.mail",
+      "isStaff": false
+    },
+    {
+      "email": "jacob@jacob.mail",
+      "fullName": "Jacob Billings",
+      "isStaff": true,
+      "id": 2
+    },
+    {
+      "email": "howard@howard.mail",
+      "fullName": "Howard Lynburg",
+      "isStaff": false,
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "purchase": "yes",
+      "loyaltyNumber": 46783,
+      "locationsID": 1,
+      "name": "Cindy",
+      "email": "cindy@cindy.mail"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "3/2/33",
+      "payRate": 12.99,
+      "name": "Craig",
+      "email": "craig@craig.mail",
+      "locationsID": 1
+    }
+  ],
+  "locations": [
+    {
+        "id": 1,
+        "address": "8902 Houston Drive, Augustine, Utah 80932",
+        "squareFootage": "3500 Square ft"
+    },
+    {
+        "id": 2,
+        "address": "1283 Central Lane, Everyln, Alaska 39280",
+        "squareFootage": "500 Square ft"
+    },
+    {
+        "id": 3,
+        "address": "7892 Yearly Parkway, Justice, Montana 27893",
+        "squareFootage": "300 Square ft"
+    },
+    {
+        "id": 4,
+        "address": "3749 Rocky Avenue, Coastal, Virginia 39280",
+        "squareFootage": "100 Square ft"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "locationsID": 1,
+      "name": "Laffy Taffy",
+      "type": "Taffy",
+      "price": 2.45
+    }
+  ],
+  "productType": [
+    {
+      "id": 1,
+      "type": "Taffy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 16
+    }
+  ]
+}
